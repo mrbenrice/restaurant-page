@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "Comic Sans";
+    src: url(./font_images/COMIC.TTF) format('truetype');
+}
+
+* {
+    font-family: Helvetica, Arial, "Comic Sans", sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header-btn {
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.header-btn:hover {
+    font-size: large;
+    transition: 0.3s;
+}
